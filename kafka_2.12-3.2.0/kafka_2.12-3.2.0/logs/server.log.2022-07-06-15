@@ -1,0 +1,1081 @@
+[2022-07-06 15:31:15,950] INFO Reading configuration from: ..\..\config\zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2022-07-06 15:31:15,950] WARN ..\..\config\zookeeper.properties is relative. Prepend .\ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2022-07-06 15:31:15,966] WARN \tmp\zookeeper is relative. Prepend .\ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2022-07-06 15:31:15,966] INFO clientPortAddress is 0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2022-07-06 15:31:15,966] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2022-07-06 15:31:15,966] INFO observerMasterPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2022-07-06 15:31:15,966] INFO metricsProvider.className is org.apache.zookeeper.metrics.impl.DefaultMetricsProvider (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2022-07-06 15:31:15,966] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2022-07-06 15:31:15,966] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2022-07-06 15:31:15,966] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2022-07-06 15:31:15,966] WARN Either no config or no quorum defined in config, running in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2022-07-06 15:31:15,966] INFO Log4j 1.2 jmx support not found; jmx disabled. (org.apache.zookeeper.jmx.ManagedUtil)
+[2022-07-06 15:31:15,966] INFO Reading configuration from: ..\..\config\zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2022-07-06 15:31:15,966] WARN ..\..\config\zookeeper.properties is relative. Prepend .\ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2022-07-06 15:31:15,981] WARN \tmp\zookeeper is relative. Prepend .\ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2022-07-06 15:31:15,981] INFO clientPortAddress is 0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2022-07-06 15:31:15,981] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2022-07-06 15:31:15,981] INFO observerMasterPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2022-07-06 15:31:15,981] INFO metricsProvider.className is org.apache.zookeeper.metrics.impl.DefaultMetricsProvider (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2022-07-06 15:31:15,981] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2022-07-06 15:31:15,997] INFO ServerMetrics initialized with provider org.apache.zookeeper.metrics.impl.DefaultMetricsProvider@75f32542 (org.apache.zookeeper.server.ServerMetrics)
+[2022-07-06 15:31:15,997] INFO zookeeper.snapshot.trust.empty : false (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2022-07-06 15:31:15,997] INFO  (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:15,997] INFO   ______                  _                                           (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,013] INFO  |___  /                 | |                                          (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,013] INFO     / /    ___     ___   | | __   ___    ___   _ __     ___   _ __    (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,013] INFO    / /    / _ \   / _ \  | |/ /  / _ \  / _ \ | '_ \   / _ \ | '__| (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,013] INFO   / /__  | (_) | | (_) | |   <  |  __/ |  __/ | |_) | |  __/ | |     (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,013] INFO  /_____|  \___/   \___/  |_|\_\  \___|  \___| | .__/   \___| |_| (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,013] INFO                                               | |                      (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,013] INFO                                               |_|                      (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,013] INFO  (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,013] INFO Server environment:zookeeper.version=3.6.3--6401e4ad2087061bc6b9f80dec2d69f2e3c8660a, built on 04/08/2021 16:35 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,013] INFO Server environment:host.name=DESKTOP-JT4AOQV (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,013] INFO Server environment:java.version=17.0.3.1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,013] INFO Server environment:java.vendor=Oracle Corporation (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,013] INFO Server environment:java.home=C:\Program Files\Java\jdk-17.0.3.1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,013] INFO Server environment:java.class.path=E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\activation-1.1.1.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\aopalliance-repackaged-2.6.1.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\argparse4j-0.7.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\audience-annotations-0.5.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\commons-cli-1.4.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\commons-lang3-3.8.1.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\connect-api-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\connect-basic-auth-extension-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\connect-file-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\connect-json-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\connect-mirror-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\connect-mirror-client-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\connect-runtime-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\connect-transforms-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\hk2-api-2.6.1.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\hk2-locator-2.6.1.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\hk2-utils-2.6.1.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jackson-annotations-2.12.6.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jackson-core-2.12.6.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jackson-databind-2.12.6.1.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jackson-dataformat-csv-2.12.6.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jackson-datatype-jdk8-2.12.6.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jackson-jaxrs-base-2.12.6.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jackson-jaxrs-json-provider-2.12.6.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jackson-module-jaxb-annotations-2.12.6.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jackson-module-scala_2.12-2.12.6.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jakarta.activation-api-1.2.1.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jakarta.annotation-api-1.3.5.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jakarta.inject-2.6.1.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jakarta.validation-api-2.0.2.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jakarta.ws.rs-api-2.1.6.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jakarta.xml.bind-api-2.3.2.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\javassist-3.27.0-GA.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\javax.servlet-api-3.1.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\javax.ws.rs-api-2.1.1.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jaxb-api-2.3.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jersey-client-2.34.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jersey-common-2.34.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jersey-container-servlet-2.34.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jersey-container-servlet-core-2.34.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jersey-hk2-2.34.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jersey-server-2.34.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jetty-client-9.4.44.v20210927.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jetty-continuation-9.4.44.v20210927.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jetty-http-9.4.44.v20210927.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jetty-io-9.4.44.v20210927.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jetty-security-9.4.44.v20210927.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jetty-server-9.4.44.v20210927.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jetty-servlet-9.4.44.v20210927.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jetty-servlets-9.4.44.v20210927.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jetty-util-9.4.44.v20210927.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jetty-util-ajax-9.4.44.v20210927.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jline-3.21.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jopt-simple-5.0.4.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jose4j-0.7.9.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\kafka-clients-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\kafka-log4j-appender-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\kafka-metadata-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\kafka-raft-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\kafka-server-common-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\kafka-shell-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\kafka-storage-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\kafka-storage-api-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\kafka-streams-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\kafka-streams-examples-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\kafka-streams-scala_2.12-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\kafka-streams-test-utils-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\kafka-tools-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\kafka_2.12-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\lz4-java-1.8.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\maven-artifact-3.8.4.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\metrics-core-2.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\metrics-core-4.1.12.1.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\netty-buffer-4.1.73.Final.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\netty-codec-4.1.73.Final.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\netty-common-4.1.73.Final.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\netty-handler-4.1.73.Final.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\netty-resolver-4.1.73.Final.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\netty-tcnative-classes-2.0.46.Final.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\netty-transport-4.1.73.Final.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\netty-transport-classes-epoll-4.1.73.Final.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\netty-transport-native-epoll-4.1.73.Final.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\netty-transport-native-unix-common-4.1.73.Final.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\osgi-resource-locator-1.0.3.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\paranamer-2.8.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\plexus-utils-3.3.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\reflections-0.9.12.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\reload4j-1.2.19.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\rocksdbjni-6.29.4.1.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\scala-collection-compat_2.12-2.6.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\scala-java8-compat_2.12-1.0.2.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\scala-library-2.12.15.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\scala-logging_2.12-3.9.4.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\scala-reflect-2.12.15.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\slf4j-api-1.7.36.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\slf4j-reload4j-1.7.36.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\snappy-java-1.1.8.4.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\trogdor-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\zookeeper-3.6.3.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\zookeeper-jute-3.6.3.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\zstd-jni-1.5.2-1.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,013] INFO Server environment:java.library.path=C:\Program Files\Java\jdk-17.0.3.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-17.0.3.1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\BIT\AppData\Local\Microsoft\WindowsApps;C:\Users\BIT\AppData\Roaming\npm;C:\Users\BIT\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2022.1.2\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.2\bin;;. (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,013] INFO Server environment:java.io.tmpdir=C:\Users\BIT\AppData\Local\Temp\ (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,013] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,013] INFO Server environment:os.name=Windows 10 (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,013] INFO Server environment:os.arch=amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,013] INFO Server environment:os.version=10.0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,013] INFO Server environment:user.name=BIT (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,013] INFO Server environment:user.home=C:\Users\BIT (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,013] INFO Server environment:user.dir=E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\bin\windows (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,013] INFO Server environment:os.memory.free=494MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,013] INFO Server environment:os.memory.max=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,013] INFO Server environment:os.memory.total=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,028] INFO zookeeper.enableEagerACLCheck = false (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,028] INFO zookeeper.digest.enabled = true (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,028] INFO zookeeper.closeSessionTxn.enabled = true (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,028] INFO zookeeper.flushDelay=0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,028] INFO zookeeper.maxWriteQueuePollTime=0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,028] INFO zookeeper.maxBatchSize=1000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,028] INFO zookeeper.intBufferStartingSizeBytes = 1024 (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,028] INFO Weighed connection throttling is disabled (org.apache.zookeeper.server.BlueThrottle)
+[2022-07-06 15:31:16,028] INFO minSessionTimeout set to 6000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,028] INFO maxSessionTimeout set to 60000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,028] INFO Response cache size is initialized with value 400. (org.apache.zookeeper.server.ResponseCache)
+[2022-07-06 15:31:16,028] INFO Response cache size is initialized with value 400. (org.apache.zookeeper.server.ResponseCache)
+[2022-07-06 15:31:16,028] INFO zookeeper.pathStats.slotCapacity = 60 (org.apache.zookeeper.server.util.RequestPathMetricsCollector)
+[2022-07-06 15:31:16,028] INFO zookeeper.pathStats.slotDuration = 15 (org.apache.zookeeper.server.util.RequestPathMetricsCollector)
+[2022-07-06 15:31:16,028] INFO zookeeper.pathStats.maxDepth = 6 (org.apache.zookeeper.server.util.RequestPathMetricsCollector)
+[2022-07-06 15:31:16,028] INFO zookeeper.pathStats.initialDelay = 5 (org.apache.zookeeper.server.util.RequestPathMetricsCollector)
+[2022-07-06 15:31:16,028] INFO zookeeper.pathStats.delay = 5 (org.apache.zookeeper.server.util.RequestPathMetricsCollector)
+[2022-07-06 15:31:16,028] INFO zookeeper.pathStats.enabled = false (org.apache.zookeeper.server.util.RequestPathMetricsCollector)
+[2022-07-06 15:31:16,044] INFO The max bytes for all large requests are set to 104857600 (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,044] INFO The large request threshold is set to -1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,044] INFO Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 clientPortListenBacklog -1 datadir \tmp\zookeeper\version-2 snapdir \tmp\zookeeper\version-2 (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,083] INFO Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory (org.apache.zookeeper.server.ServerCnxnFactory)
+[2022-07-06 15:31:16,083] WARN maxCnxns is not configured, using default value 0. (org.apache.zookeeper.server.ServerCnxnFactory)
+[2022-07-06 15:31:16,083] INFO Configuring NIO connection handler with 10s sessionless connection timeout, 1 selector thread(s), 8 worker threads, and 64 kB direct buffers. (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2022-07-06 15:31:16,098] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2022-07-06 15:31:16,123] INFO Using org.apache.zookeeper.server.watch.WatchManager as watch manager (org.apache.zookeeper.server.watch.WatchManagerFactory)
+[2022-07-06 15:31:16,123] INFO Using org.apache.zookeeper.server.watch.WatchManager as watch manager (org.apache.zookeeper.server.watch.WatchManagerFactory)
+[2022-07-06 15:31:16,124] INFO zookeeper.snapshotSizeFactor = 0.33 (org.apache.zookeeper.server.ZKDatabase)
+[2022-07-06 15:31:16,125] INFO zookeeper.commitLogCount=500 (org.apache.zookeeper.server.ZKDatabase)
+[2022-07-06 15:31:16,129] INFO zookeeper.snapshot.compression.method = CHECKED (org.apache.zookeeper.server.persistence.SnapStream)
+[2022-07-06 15:31:16,135] INFO Reading snapshot \tmp\zookeeper\version-2\snapshot.0 (org.apache.zookeeper.server.persistence.FileSnap)
+[2022-07-06 15:31:16,139] INFO The digest value is empty in snapshot (org.apache.zookeeper.server.DataTree)
+[2022-07-06 15:31:16,195] INFO 146 txns loaded in 30 ms (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2022-07-06 15:31:16,196] INFO Snapshot loaded in 71 ms, highest zxid is 0x92, digest is 292781623549 (org.apache.zookeeper.server.ZKDatabase)
+[2022-07-06 15:31:16,197] INFO Snapshotting: 0x92 to \tmp\zookeeper\version-2\snapshot.92 (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2022-07-06 15:31:16,201] INFO Snapshot taken in 3 ms (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:16,211] INFO zookeeper.request_throttler.shutdownTimeout = 10000 (org.apache.zookeeper.server.RequestThrottler)
+[2022-07-06 15:31:16,212] INFO PrepRequestProcessor (sid:0) started, reconfigEnabled=false (org.apache.zookeeper.server.PrepRequestProcessor)
+[2022-07-06 15:31:16,241] INFO Using checkIntervalMs=60000 maxPerMinute=10000 maxNeverUsedIntervalMs=0 (org.apache.zookeeper.server.ContainerManager)
+[2022-07-06 15:31:16,242] INFO ZooKeeper audit is disabled. (org.apache.zookeeper.audit.ZKAuditProvider)
+[2022-07-06 15:31:36,087] INFO Expiring session 0x10001a2b8b00000, timeout of 18000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2022-07-06 15:31:36,087] INFO Creating new log file: log.93 (org.apache.zookeeper.server.persistence.FileTxnLog)
+[2022-07-06 15:33:24,161] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+[2022-07-06 15:33:24,489] INFO Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation (org.apache.zookeeper.common.X509Util)
+[2022-07-06 15:33:24,573] INFO starting (kafka.server.KafkaServer)
+[2022-07-06 15:33:24,574] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2022-07-06 15:33:24,588] INFO [ZooKeeperClient Kafka server] Initializing a new session to localhost:2181. (kafka.zookeeper.ZooKeeperClient)
+[2022-07-06 15:33:24,593] INFO Client environment:zookeeper.version=3.6.3--6401e4ad2087061bc6b9f80dec2d69f2e3c8660a, built on 04/08/2021 16:35 GMT (org.apache.zookeeper.ZooKeeper)
+[2022-07-06 15:33:24,593] INFO Client environment:host.name=DESKTOP-JT4AOQV (org.apache.zookeeper.ZooKeeper)
+[2022-07-06 15:33:24,593] INFO Client environment:java.version=17.0.3.1 (org.apache.zookeeper.ZooKeeper)
+[2022-07-06 15:33:24,593] INFO Client environment:java.vendor=Oracle Corporation (org.apache.zookeeper.ZooKeeper)
+[2022-07-06 15:33:24,594] INFO Client environment:java.home=C:\Program Files\Java\jdk-17.0.3.1 (org.apache.zookeeper.ZooKeeper)
+[2022-07-06 15:33:24,594] INFO Client environment:java.class.path=E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\activation-1.1.1.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\aopalliance-repackaged-2.6.1.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\argparse4j-0.7.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\audience-annotations-0.5.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\commons-cli-1.4.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\commons-lang3-3.8.1.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\connect-api-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\connect-basic-auth-extension-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\connect-file-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\connect-json-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\connect-mirror-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\connect-mirror-client-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\connect-runtime-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\connect-transforms-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\hk2-api-2.6.1.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\hk2-locator-2.6.1.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\hk2-utils-2.6.1.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jackson-annotations-2.12.6.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jackson-core-2.12.6.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jackson-databind-2.12.6.1.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jackson-dataformat-csv-2.12.6.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jackson-datatype-jdk8-2.12.6.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jackson-jaxrs-base-2.12.6.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jackson-jaxrs-json-provider-2.12.6.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jackson-module-jaxb-annotations-2.12.6.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jackson-module-scala_2.12-2.12.6.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jakarta.activation-api-1.2.1.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jakarta.annotation-api-1.3.5.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jakarta.inject-2.6.1.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jakarta.validation-api-2.0.2.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jakarta.ws.rs-api-2.1.6.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jakarta.xml.bind-api-2.3.2.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\javassist-3.27.0-GA.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\javax.servlet-api-3.1.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\javax.ws.rs-api-2.1.1.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jaxb-api-2.3.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jersey-client-2.34.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jersey-common-2.34.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jersey-container-servlet-2.34.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jersey-container-servlet-core-2.34.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jersey-hk2-2.34.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jersey-server-2.34.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jetty-client-9.4.44.v20210927.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jetty-continuation-9.4.44.v20210927.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jetty-http-9.4.44.v20210927.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jetty-io-9.4.44.v20210927.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jetty-security-9.4.44.v20210927.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jetty-server-9.4.44.v20210927.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jetty-servlet-9.4.44.v20210927.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jetty-servlets-9.4.44.v20210927.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jetty-util-9.4.44.v20210927.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jetty-util-ajax-9.4.44.v20210927.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jline-3.21.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jopt-simple-5.0.4.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\jose4j-0.7.9.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\kafka-clients-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\kafka-log4j-appender-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\kafka-metadata-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\kafka-raft-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\kafka-server-common-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\kafka-shell-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\kafka-storage-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\kafka-storage-api-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\kafka-streams-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\kafka-streams-examples-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\kafka-streams-scala_2.12-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\kafka-streams-test-utils-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\kafka-tools-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\kafka_2.12-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\lz4-java-1.8.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\maven-artifact-3.8.4.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\metrics-core-2.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\metrics-core-4.1.12.1.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\netty-buffer-4.1.73.Final.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\netty-codec-4.1.73.Final.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\netty-common-4.1.73.Final.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\netty-handler-4.1.73.Final.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\netty-resolver-4.1.73.Final.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\netty-tcnative-classes-2.0.46.Final.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\netty-transport-4.1.73.Final.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\netty-transport-classes-epoll-4.1.73.Final.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\netty-transport-native-epoll-4.1.73.Final.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\netty-transport-native-unix-common-4.1.73.Final.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\osgi-resource-locator-1.0.3.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\paranamer-2.8.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\plexus-utils-3.3.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\reflections-0.9.12.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\reload4j-1.2.19.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\rocksdbjni-6.29.4.1.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\scala-collection-compat_2.12-2.6.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\scala-java8-compat_2.12-1.0.2.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\scala-library-2.12.15.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\scala-logging_2.12-3.9.4.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\scala-reflect-2.12.15.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\slf4j-api-1.7.36.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\slf4j-reload4j-1.7.36.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\snappy-java-1.1.8.4.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\trogdor-3.2.0.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\zookeeper-3.6.3.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\zookeeper-jute-3.6.3.jar;E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\libs\zstd-jni-1.5.2-1.jar (org.apache.zookeeper.ZooKeeper)
+[2022-07-06 15:33:24,595] INFO Client environment:java.library.path=C:\Program Files\Java\jdk-17.0.3.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-17.0.3.1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\BIT\AppData\Local\Microsoft\WindowsApps;C:\Users\BIT\AppData\Roaming\npm;C:\Users\BIT\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2022.1.2\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.2\bin;;. (org.apache.zookeeper.ZooKeeper)
+[2022-07-06 15:33:24,596] INFO Client environment:java.io.tmpdir=C:\Users\BIT\AppData\Local\Temp\ (org.apache.zookeeper.ZooKeeper)
+[2022-07-06 15:33:24,596] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2022-07-06 15:33:24,596] INFO Client environment:os.name=Windows 10 (org.apache.zookeeper.ZooKeeper)
+[2022-07-06 15:33:24,597] INFO Client environment:os.arch=amd64 (org.apache.zookeeper.ZooKeeper)
+[2022-07-06 15:33:24,597] INFO Client environment:os.version=10.0 (org.apache.zookeeper.ZooKeeper)
+[2022-07-06 15:33:24,598] INFO Client environment:user.name=BIT (org.apache.zookeeper.ZooKeeper)
+[2022-07-06 15:33:24,598] INFO Client environment:user.home=C:\Users\BIT (org.apache.zookeeper.ZooKeeper)
+[2022-07-06 15:33:24,598] INFO Client environment:user.dir=E:\kafka_2.12-3.2.0\kafka_2.12-3.2.0\bin\windows (org.apache.zookeeper.ZooKeeper)
+[2022-07-06 15:33:24,599] INFO Client environment:os.memory.free=988MB (org.apache.zookeeper.ZooKeeper)
+[2022-07-06 15:33:24,599] INFO Client environment:os.memory.max=1024MB (org.apache.zookeeper.ZooKeeper)
+[2022-07-06 15:33:24,600] INFO Client environment:os.memory.total=1024MB (org.apache.zookeeper.ZooKeeper)
+[2022-07-06 15:33:24,602] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=18000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@3c01cfa1 (org.apache.zookeeper.ZooKeeper)
+[2022-07-06 15:33:24,642] INFO jute.maxbuffer value is 4194304 Bytes (org.apache.zookeeper.ClientCnxnSocket)
+[2022-07-06 15:33:24,648] INFO zookeeper.request.timeout value is 0. feature enabled=false (org.apache.zookeeper.ClientCnxn)
+[2022-07-06 15:33:24,652] INFO [ZooKeeperClient Kafka server] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+[2022-07-06 15:33:24,654] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. (org.apache.zookeeper.ClientCnxn)
+[2022-07-06 15:33:24,658] INFO Socket connection established, initiating session, client: /[0:0:0:0:0:0:0:1]:2312, server: localhost/[0:0:0:0:0:0:0:1]:2181 (org.apache.zookeeper.ClientCnxn)
+[2022-07-06 15:33:24,682] INFO Session establishment complete on server localhost/[0:0:0:0:0:0:0:1]:2181, session id = 0x1000163034c0000, negotiated timeout = 18000 (org.apache.zookeeper.ClientCnxn)
+[2022-07-06 15:33:24,685] INFO [ZooKeeperClient Kafka server] Connected. (kafka.zookeeper.ZooKeeperClient)
+[2022-07-06 15:33:24,990] INFO [feature-zk-node-event-process-thread]: Starting (kafka.server.FinalizedFeatureChangeListener$ChangeNotificationProcessorThread)
+[2022-07-06 15:33:25,161] INFO Updated cache from existing <empty> to latest FinalizedFeaturesAndEpoch(features=Features{}, epoch=0). (kafka.server.FinalizedFeatureCache)
+[2022-07-06 15:33:25,167] INFO Cluster ID = P94baDdNTkWWUHnLg3sOkw (kafka.server.KafkaServer)
+[2022-07-06 15:33:25,251] INFO KafkaConfig values: 
+	advertised.listeners = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.heartbeat.interval.ms = 2000
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	broker.session.timeout.ms = 9000
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.listener.names = null
+	controller.quorum.append.linger.ms = 25
+	controller.quorum.election.backoff.max.ms = 1000
+	controller.quorum.election.timeout.ms = 1000
+	controller.quorum.fetch.timeout.ms = 2000
+	controller.quorum.request.timeout.ms = 2000
+	controller.quorum.retry.backoff.ms = 20
+	controller.quorum.voters = []
+	controller.quota.window.num = 11
+	controller.quota.window.size.seconds = 1
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delegation.token.secret.key = null
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.max.bytes = 57671680
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 1800000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	initial.broker.registration.timeout.ms = 60000
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 3.2-IV0
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = PLAINTEXT://:9092
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 3.0-IV1
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connection.creation.rate = 2147483647
+	max.connections = 2147483647
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1048588
+	metadata.log.dir = null
+	metadata.log.max.record.bytes.between.snapshots = 20971520
+	metadata.log.segment.bytes = 1073741824
+	metadata.log.segment.min.bytes = 8388608
+	metadata.log.segment.ms = 604800000
+	metadata.max.retention.bytes = -1
+	metadata.max.retention.ms = 604800000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	node.id = 0
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	principal.builder.class = class org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder
+	process.roles = []
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	remote.log.index.file.cache.total.size.bytes = 1073741824
+	remote.log.manager.task.interval.ms = 30000
+	remote.log.manager.task.retry.backoff.max.ms = 30000
+	remote.log.manager.task.retry.backoff.ms = 500
+	remote.log.manager.task.retry.jitter = 0.2
+	remote.log.manager.thread.pool.size = 10
+	remote.log.metadata.manager.class.name = null
+	remote.log.metadata.manager.class.path = null
+	remote.log.metadata.manager.impl.prefix = null
+	remote.log.metadata.manager.listener.name = null
+	remote.log.reader.max.pending.tasks = 100
+	remote.log.reader.threads = 10
+	remote.log.storage.manager.class.name = null
+	remote.log.storage.manager.class.path = null
+	remote.log.storage.manager.impl.prefix = null
+	remote.log.storage.system.enable = false
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 30000
+	replica.selector.class = null
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism.controller.protocol = GSSAPI
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	security.providers = null
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	socket.listen.backlog.size = 50
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = DEFAULT
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 10000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.clientCnxnSocket = null
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 18000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 18000
+	zookeeper.set.acl = false
+	zookeeper.ssl.cipher.suites = null
+	zookeeper.ssl.client.enable = false
+	zookeeper.ssl.crl.enable = false
+	zookeeper.ssl.enabled.protocols = null
+	zookeeper.ssl.endpoint.identification.algorithm = HTTPS
+	zookeeper.ssl.keystore.location = null
+	zookeeper.ssl.keystore.password = null
+	zookeeper.ssl.keystore.type = null
+	zookeeper.ssl.ocsp.enable = false
+	zookeeper.ssl.protocol = TLSv1.2
+	zookeeper.ssl.truststore.location = null
+	zookeeper.ssl.truststore.password = null
+	zookeeper.ssl.truststore.type = null
+ (kafka.server.KafkaConfig)
+[2022-07-06 15:33:25,300] INFO [ThrottledChannelReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2022-07-06 15:33:25,302] INFO [ThrottledChannelReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2022-07-06 15:33:25,303] INFO [ThrottledChannelReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2022-07-06 15:33:25,304] INFO [ThrottledChannelReaper-ControllerMutation]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2022-07-06 15:33:25,349] INFO Loading logs from log dirs ArrayBuffer(E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:25,353] INFO Attempting recovery for all logs in E:\tmp\kafka-logs since no clean shutdown file was found (kafka.log.LogManager)
+[2022-07-06 15:33:25,444] INFO [LogLoader partition=oingdaddy-0, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:25,446] INFO [LogLoader partition=oingdaddy-0, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,447] INFO [LogLoader partition=oingdaddy-0, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,449] INFO [LogLoader partition=oingdaddy-0, dir=E:\tmp\kafka-logs] Producer state recovery took 1ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,519] INFO [ProducerStateManager partition=oingdaddy-0] Wrote producer snapshot at offset 5 with 1 producer ids in 27 ms. (kafka.log.ProducerStateManager)
+[2022-07-06 15:33:25,566] INFO [LogLoader partition=oingdaddy-0, dir=E:\tmp\kafka-logs] Loading producer state till offset 5 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,566] INFO [LogLoader partition=oingdaddy-0, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 5 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,568] INFO [ProducerStateManager partition=oingdaddy-0] Loading producer state from snapshot file 'SnapshotFile(E:\tmp\kafka-logs\oingdaddy-0\00000000000000000005.snapshot,5)' (kafka.log.ProducerStateManager)
+[2022-07-06 15:33:25,574] INFO [LogLoader partition=oingdaddy-0, dir=E:\tmp\kafka-logs] Producer state recovery took 7ms for snapshot load and 0ms for segment recovery from offset 5 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,596] INFO Completed load of Log(dir=E:\tmp\kafka-logs\oingdaddy-0, topicId=5Qxi29fLQv6IKDksY_aMPA, topic=oingdaddy, partition=0, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=5) with 1 segments in 200ms (1/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:25,601] INFO [LogLoader partition=registerTopic-0, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:25,601] INFO [LogLoader partition=registerTopic-0, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,602] INFO [LogLoader partition=registerTopic-0, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,602] INFO [LogLoader partition=registerTopic-0, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,624] INFO [ProducerStateManager partition=registerTopic-0] Wrote producer snapshot at offset 3 with 1 producer ids in 18 ms. (kafka.log.ProducerStateManager)
+[2022-07-06 15:33:25,653] INFO [LogLoader partition=registerTopic-0, dir=E:\tmp\kafka-logs] Loading producer state till offset 3 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,653] INFO [LogLoader partition=registerTopic-0, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 3 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,654] INFO [ProducerStateManager partition=registerTopic-0] Loading producer state from snapshot file 'SnapshotFile(E:\tmp\kafka-logs\registerTopic-0\00000000000000000003.snapshot,3)' (kafka.log.ProducerStateManager)
+[2022-07-06 15:33:25,659] INFO [LogLoader partition=registerTopic-0, dir=E:\tmp\kafka-logs] Producer state recovery took 5ms for snapshot load and 0ms for segment recovery from offset 3 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,665] INFO Completed load of Log(dir=E:\tmp\kafka-logs\registerTopic-0, topicId=Y6682y0pTjy-Y-TE7-1t8g, topic=registerTopic, partition=0, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=3) with 1 segments in 69ms (2/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:25,670] INFO [LogLoader partition=__consumer_offsets-0, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:25,671] INFO [LogLoader partition=__consumer_offsets-0, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,671] INFO [LogLoader partition=__consumer_offsets-0, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,672] INFO [LogLoader partition=__consumer_offsets-0, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,705] INFO [LogLoader partition=__consumer_offsets-0, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,705] INFO [LogLoader partition=__consumer_offsets-0, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,706] INFO [LogLoader partition=__consumer_offsets-0, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,713] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-0, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=0, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 47ms (3/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:25,717] INFO [LogLoader partition=__consumer_offsets-1, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:25,718] INFO [LogLoader partition=__consumer_offsets-1, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,718] INFO [LogLoader partition=__consumer_offsets-1, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,719] INFO [LogLoader partition=__consumer_offsets-1, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,745] INFO [LogLoader partition=__consumer_offsets-1, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,745] INFO [LogLoader partition=__consumer_offsets-1, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,747] INFO [LogLoader partition=__consumer_offsets-1, dir=E:\tmp\kafka-logs] Producer state recovery took 1ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,751] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-1, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=1, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 37ms (4/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:25,754] INFO [LogLoader partition=__consumer_offsets-10, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:25,755] INFO [LogLoader partition=__consumer_offsets-10, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,755] INFO [LogLoader partition=__consumer_offsets-10, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,756] INFO [LogLoader partition=__consumer_offsets-10, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,787] INFO [LogLoader partition=__consumer_offsets-10, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,787] INFO [LogLoader partition=__consumer_offsets-10, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,788] INFO [LogLoader partition=__consumer_offsets-10, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,791] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-10, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=10, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 41ms (5/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:25,795] INFO [LogLoader partition=__consumer_offsets-11, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:25,796] INFO [LogLoader partition=__consumer_offsets-11, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,796] INFO [LogLoader partition=__consumer_offsets-11, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,797] INFO [LogLoader partition=__consumer_offsets-11, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,837] INFO [LogLoader partition=__consumer_offsets-11, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,837] INFO [LogLoader partition=__consumer_offsets-11, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,840] INFO [LogLoader partition=__consumer_offsets-11, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,849] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-11, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=11, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 57ms (6/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:25,860] INFO [LogLoader partition=__consumer_offsets-12, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:25,862] INFO [LogLoader partition=__consumer_offsets-12, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,862] INFO [LogLoader partition=__consumer_offsets-12, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,864] INFO [LogLoader partition=__consumer_offsets-12, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,887] INFO [LogLoader partition=__consumer_offsets-12, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,887] INFO [LogLoader partition=__consumer_offsets-12, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,889] INFO [LogLoader partition=__consumer_offsets-12, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,894] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-12, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=12, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 44ms (7/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:25,901] INFO [LogLoader partition=__consumer_offsets-13, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:25,902] INFO [LogLoader partition=__consumer_offsets-13, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,902] INFO [LogLoader partition=__consumer_offsets-13, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,903] INFO [LogLoader partition=__consumer_offsets-13, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,953] INFO [ProducerStateManager partition=__consumer_offsets-13] Wrote producer snapshot at offset 60 with 0 producer ids in 30 ms. (kafka.log.ProducerStateManager)
+[2022-07-06 15:33:25,979] INFO [LogLoader partition=__consumer_offsets-13, dir=E:\tmp\kafka-logs] Loading producer state till offset 60 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,980] INFO [LogLoader partition=__consumer_offsets-13, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 60 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,981] INFO [ProducerStateManager partition=__consumer_offsets-13] Loading producer state from snapshot file 'SnapshotFile(E:\tmp\kafka-logs\__consumer_offsets-13\00000000000000000060.snapshot,60)' (kafka.log.ProducerStateManager)
+[2022-07-06 15:33:25,987] INFO [LogLoader partition=__consumer_offsets-13, dir=E:\tmp\kafka-logs] Producer state recovery took 7ms for snapshot load and 0ms for segment recovery from offset 60 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:25,999] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-13, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=13, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=60) with 1 segments in 105ms (8/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:26,014] INFO [LogLoader partition=__consumer_offsets-14, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:26,014] INFO [LogLoader partition=__consumer_offsets-14, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,015] INFO [LogLoader partition=__consumer_offsets-14, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,016] INFO [LogLoader partition=__consumer_offsets-14, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,054] INFO [LogLoader partition=__consumer_offsets-14, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,055] INFO [LogLoader partition=__consumer_offsets-14, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,056] INFO [LogLoader partition=__consumer_offsets-14, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,062] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-14, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=14, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 62ms (9/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:26,069] INFO [LogLoader partition=__consumer_offsets-15, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:26,069] INFO [LogLoader partition=__consumer_offsets-15, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,070] INFO [LogLoader partition=__consumer_offsets-15, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,071] INFO [LogLoader partition=__consumer_offsets-15, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,104] INFO [LogLoader partition=__consumer_offsets-15, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,105] INFO [LogLoader partition=__consumer_offsets-15, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,107] INFO [LogLoader partition=__consumer_offsets-15, dir=E:\tmp\kafka-logs] Producer state recovery took 1ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,112] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-15, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=15, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 49ms (10/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:26,127] INFO [LogLoader partition=__consumer_offsets-16, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:26,127] INFO [LogLoader partition=__consumer_offsets-16, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,128] INFO [LogLoader partition=__consumer_offsets-16, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,131] INFO [LogLoader partition=__consumer_offsets-16, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,171] INFO [LogLoader partition=__consumer_offsets-16, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,171] INFO [LogLoader partition=__consumer_offsets-16, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,174] INFO [LogLoader partition=__consumer_offsets-16, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,184] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-16, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=16, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 71ms (11/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:26,196] INFO [LogLoader partition=__consumer_offsets-17, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:26,197] INFO [LogLoader partition=__consumer_offsets-17, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,198] INFO [LogLoader partition=__consumer_offsets-17, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,198] INFO [LogLoader partition=__consumer_offsets-17, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,228] INFO [ProducerStateManager partition=__consumer_offsets-17] Wrote producer snapshot at offset 2 with 0 producer ids in 23 ms. (kafka.log.ProducerStateManager)
+[2022-07-06 15:33:26,254] INFO [LogLoader partition=__consumer_offsets-17, dir=E:\tmp\kafka-logs] Loading producer state till offset 2 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,254] INFO [LogLoader partition=__consumer_offsets-17, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,255] INFO [ProducerStateManager partition=__consumer_offsets-17] Loading producer state from snapshot file 'SnapshotFile(E:\tmp\kafka-logs\__consumer_offsets-17\00000000000000000002.snapshot,2)' (kafka.log.ProducerStateManager)
+[2022-07-06 15:33:26,258] INFO [LogLoader partition=__consumer_offsets-17, dir=E:\tmp\kafka-logs] Producer state recovery took 3ms for snapshot load and 0ms for segment recovery from offset 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,263] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-17, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=17, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=2) with 1 segments in 78ms (12/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:26,270] INFO [LogLoader partition=__consumer_offsets-18, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:26,270] INFO [LogLoader partition=__consumer_offsets-18, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,271] INFO [LogLoader partition=__consumer_offsets-18, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,272] INFO [LogLoader partition=__consumer_offsets-18, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,304] INFO [LogLoader partition=__consumer_offsets-18, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,305] INFO [LogLoader partition=__consumer_offsets-18, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,306] INFO [LogLoader partition=__consumer_offsets-18, dir=E:\tmp\kafka-logs] Producer state recovery took 1ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,311] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-18, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=18, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 47ms (13/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:26,327] INFO [LogLoader partition=__consumer_offsets-19, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:26,329] INFO [LogLoader partition=__consumer_offsets-19, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,330] INFO [LogLoader partition=__consumer_offsets-19, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,330] INFO [LogLoader partition=__consumer_offsets-19, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,363] INFO [LogLoader partition=__consumer_offsets-19, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,363] INFO [LogLoader partition=__consumer_offsets-19, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,365] INFO [LogLoader partition=__consumer_offsets-19, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,370] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-19, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=19, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 58ms (14/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:26,377] INFO [LogLoader partition=__consumer_offsets-2, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:26,378] INFO [LogLoader partition=__consumer_offsets-2, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,378] INFO [LogLoader partition=__consumer_offsets-2, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,379] INFO [LogLoader partition=__consumer_offsets-2, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,404] INFO [LogLoader partition=__consumer_offsets-2, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,405] INFO [LogLoader partition=__consumer_offsets-2, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,407] INFO [LogLoader partition=__consumer_offsets-2, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,412] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-2, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=2, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 40ms (15/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:26,420] INFO [LogLoader partition=__consumer_offsets-20, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:26,421] INFO [LogLoader partition=__consumer_offsets-20, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,422] INFO [LogLoader partition=__consumer_offsets-20, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,422] INFO [LogLoader partition=__consumer_offsets-20, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,454] INFO [LogLoader partition=__consumer_offsets-20, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,455] INFO [LogLoader partition=__consumer_offsets-20, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,456] INFO [LogLoader partition=__consumer_offsets-20, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,462] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-20, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=20, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 49ms (16/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:26,468] INFO [LogLoader partition=__consumer_offsets-21, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:26,469] INFO [LogLoader partition=__consumer_offsets-21, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,469] INFO [LogLoader partition=__consumer_offsets-21, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,470] INFO [LogLoader partition=__consumer_offsets-21, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,512] INFO [LogLoader partition=__consumer_offsets-21, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,512] INFO [LogLoader partition=__consumer_offsets-21, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,514] INFO [LogLoader partition=__consumer_offsets-21, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,517] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-21, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=21, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 54ms (17/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:26,522] INFO [LogLoader partition=__consumer_offsets-22, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:26,522] INFO [LogLoader partition=__consumer_offsets-22, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,522] INFO [LogLoader partition=__consumer_offsets-22, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,523] INFO [LogLoader partition=__consumer_offsets-22, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,553] INFO [LogLoader partition=__consumer_offsets-22, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,554] INFO [LogLoader partition=__consumer_offsets-22, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,555] INFO [LogLoader partition=__consumer_offsets-22, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,558] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-22, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=22, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 40ms (18/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:26,562] INFO [LogLoader partition=__consumer_offsets-23, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:26,563] INFO [LogLoader partition=__consumer_offsets-23, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,563] INFO [LogLoader partition=__consumer_offsets-23, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,564] INFO [LogLoader partition=__consumer_offsets-23, dir=E:\tmp\kafka-logs] Producer state recovery took 1ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,595] INFO [LogLoader partition=__consumer_offsets-23, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,595] INFO [LogLoader partition=__consumer_offsets-23, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,597] INFO [LogLoader partition=__consumer_offsets-23, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,600] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-23, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=23, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 42ms (19/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:26,609] INFO [LogLoader partition=__consumer_offsets-24, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:26,609] INFO [LogLoader partition=__consumer_offsets-24, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,610] INFO [LogLoader partition=__consumer_offsets-24, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,611] INFO [LogLoader partition=__consumer_offsets-24, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,644] INFO [LogLoader partition=__consumer_offsets-24, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,645] INFO [LogLoader partition=__consumer_offsets-24, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,646] INFO [LogLoader partition=__consumer_offsets-24, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,651] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-24, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=24, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 50ms (20/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:26,659] INFO [LogLoader partition=__consumer_offsets-25, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:26,659] INFO [LogLoader partition=__consumer_offsets-25, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,660] INFO [LogLoader partition=__consumer_offsets-25, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,660] INFO [LogLoader partition=__consumer_offsets-25, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,696] INFO [LogLoader partition=__consumer_offsets-25, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,696] INFO [LogLoader partition=__consumer_offsets-25, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,698] INFO [LogLoader partition=__consumer_offsets-25, dir=E:\tmp\kafka-logs] Producer state recovery took 1ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,701] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-25, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=25, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 50ms (21/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:26,709] INFO [LogLoader partition=__consumer_offsets-26, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:26,710] INFO [LogLoader partition=__consumer_offsets-26, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,710] INFO [LogLoader partition=__consumer_offsets-26, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,711] INFO [LogLoader partition=__consumer_offsets-26, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,744] INFO [LogLoader partition=__consumer_offsets-26, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,745] INFO [LogLoader partition=__consumer_offsets-26, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,746] INFO [LogLoader partition=__consumer_offsets-26, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,749] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-26, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=26, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 49ms (22/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:26,753] INFO [LogLoader partition=__consumer_offsets-27, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:26,754] INFO [LogLoader partition=__consumer_offsets-27, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,755] INFO [LogLoader partition=__consumer_offsets-27, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,755] INFO [LogLoader partition=__consumer_offsets-27, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,786] INFO [LogLoader partition=__consumer_offsets-27, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,787] INFO [LogLoader partition=__consumer_offsets-27, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,788] INFO [LogLoader partition=__consumer_offsets-27, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,791] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-27, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=27, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 41ms (23/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:26,794] INFO [LogLoader partition=__consumer_offsets-28, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:26,795] INFO [LogLoader partition=__consumer_offsets-28, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,795] INFO [LogLoader partition=__consumer_offsets-28, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,796] INFO [LogLoader partition=__consumer_offsets-28, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,828] INFO [LogLoader partition=__consumer_offsets-28, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,829] INFO [LogLoader partition=__consumer_offsets-28, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,830] INFO [LogLoader partition=__consumer_offsets-28, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,834] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-28, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=28, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 43ms (24/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:26,842] INFO [LogLoader partition=__consumer_offsets-29, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:26,843] INFO [LogLoader partition=__consumer_offsets-29, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,843] INFO [LogLoader partition=__consumer_offsets-29, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,844] INFO [LogLoader partition=__consumer_offsets-29, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,879] INFO [LogLoader partition=__consumer_offsets-29, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,879] INFO [LogLoader partition=__consumer_offsets-29, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,880] INFO [LogLoader partition=__consumer_offsets-29, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,883] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-29, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=29, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 48ms (25/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:26,893] INFO [LogLoader partition=__consumer_offsets-3, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:26,893] INFO [LogLoader partition=__consumer_offsets-3, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,893] INFO [LogLoader partition=__consumer_offsets-3, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,894] INFO [LogLoader partition=__consumer_offsets-3, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,920] INFO [LogLoader partition=__consumer_offsets-3, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,921] INFO [LogLoader partition=__consumer_offsets-3, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,921] INFO [LogLoader partition=__consumer_offsets-3, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,924] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-3, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=3, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 41ms (26/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:26,928] INFO [LogLoader partition=__consumer_offsets-30, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:26,928] INFO [LogLoader partition=__consumer_offsets-30, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,928] INFO [LogLoader partition=__consumer_offsets-30, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,929] INFO [LogLoader partition=__consumer_offsets-30, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,970] INFO [LogLoader partition=__consumer_offsets-30, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,971] INFO [LogLoader partition=__consumer_offsets-30, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,972] INFO [LogLoader partition=__consumer_offsets-30, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,974] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-30, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=30, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 50ms (27/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:26,978] INFO [LogLoader partition=__consumer_offsets-31, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:26,978] INFO [LogLoader partition=__consumer_offsets-31, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,979] INFO [LogLoader partition=__consumer_offsets-31, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:26,979] INFO [LogLoader partition=__consumer_offsets-31, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,012] INFO [ProducerStateManager partition=__consumer_offsets-31] Wrote producer snapshot at offset 3 with 0 producer ids in 29 ms. (kafka.log.ProducerStateManager)
+[2022-07-06 15:33:27,037] INFO [LogLoader partition=__consumer_offsets-31, dir=E:\tmp\kafka-logs] Loading producer state till offset 3 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,037] INFO [LogLoader partition=__consumer_offsets-31, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 3 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,037] INFO [ProducerStateManager partition=__consumer_offsets-31] Loading producer state from snapshot file 'SnapshotFile(E:\tmp\kafka-logs\__consumer_offsets-31\00000000000000000003.snapshot,3)' (kafka.log.ProducerStateManager)
+[2022-07-06 15:33:27,039] INFO [LogLoader partition=__consumer_offsets-31, dir=E:\tmp\kafka-logs] Producer state recovery took 2ms for snapshot load and 0ms for segment recovery from offset 3 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,042] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-31, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=31, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=3) with 1 segments in 68ms (28/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:27,051] INFO [LogLoader partition=__consumer_offsets-32, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:27,052] INFO [LogLoader partition=__consumer_offsets-32, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,052] INFO [LogLoader partition=__consumer_offsets-32, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,053] INFO [LogLoader partition=__consumer_offsets-32, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,096] INFO [LogLoader partition=__consumer_offsets-32, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,096] INFO [LogLoader partition=__consumer_offsets-32, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,099] INFO [LogLoader partition=__consumer_offsets-32, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,106] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-32, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=32, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 64ms (29/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:27,143] INFO [LogLoader partition=__consumer_offsets-33, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:27,144] INFO [LogLoader partition=__consumer_offsets-33, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,145] INFO [LogLoader partition=__consumer_offsets-33, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,146] INFO [LogLoader partition=__consumer_offsets-33, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,179] INFO [LogLoader partition=__consumer_offsets-33, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,180] INFO [LogLoader partition=__consumer_offsets-33, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,181] INFO [LogLoader partition=__consumer_offsets-33, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,186] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-33, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=33, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 79ms (30/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:27,191] INFO [LogLoader partition=__consumer_offsets-34, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:27,192] INFO [LogLoader partition=__consumer_offsets-34, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,193] INFO [LogLoader partition=__consumer_offsets-34, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,193] INFO [LogLoader partition=__consumer_offsets-34, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,221] INFO [LogLoader partition=__consumer_offsets-34, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,221] INFO [LogLoader partition=__consumer_offsets-34, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,222] INFO [LogLoader partition=__consumer_offsets-34, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,224] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-34, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=34, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 39ms (31/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:27,229] INFO [LogLoader partition=__consumer_offsets-35, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:27,230] INFO [LogLoader partition=__consumer_offsets-35, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,232] INFO [LogLoader partition=__consumer_offsets-35, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,232] INFO [LogLoader partition=__consumer_offsets-35, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,254] INFO [LogLoader partition=__consumer_offsets-35, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,254] INFO [LogLoader partition=__consumer_offsets-35, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,254] INFO [LogLoader partition=__consumer_offsets-35, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,257] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-35, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=35, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 33ms (32/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:27,261] INFO [LogLoader partition=__consumer_offsets-36, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:27,262] INFO [LogLoader partition=__consumer_offsets-36, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,262] INFO [LogLoader partition=__consumer_offsets-36, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,263] INFO [LogLoader partition=__consumer_offsets-36, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,304] INFO [LogLoader partition=__consumer_offsets-36, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,304] INFO [LogLoader partition=__consumer_offsets-36, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,305] INFO [LogLoader partition=__consumer_offsets-36, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,309] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-36, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=36, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 50ms (33/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:27,314] INFO [LogLoader partition=__consumer_offsets-37, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:27,315] INFO [LogLoader partition=__consumer_offsets-37, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,316] INFO [LogLoader partition=__consumer_offsets-37, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,316] INFO [LogLoader partition=__consumer_offsets-37, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,346] INFO [LogLoader partition=__consumer_offsets-37, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,347] INFO [LogLoader partition=__consumer_offsets-37, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,348] INFO [LogLoader partition=__consumer_offsets-37, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,351] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-37, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=37, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 43ms (34/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:27,360] INFO [LogLoader partition=__consumer_offsets-38, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:27,361] INFO [LogLoader partition=__consumer_offsets-38, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,361] INFO [LogLoader partition=__consumer_offsets-38, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,362] INFO [LogLoader partition=__consumer_offsets-38, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,394] INFO [LogLoader partition=__consumer_offsets-38, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,395] INFO [LogLoader partition=__consumer_offsets-38, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,396] INFO [LogLoader partition=__consumer_offsets-38, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,401] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-38, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=38, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 49ms (35/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:27,409] INFO [LogLoader partition=__consumer_offsets-39, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:27,410] INFO [LogLoader partition=__consumer_offsets-39, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,410] INFO [LogLoader partition=__consumer_offsets-39, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,411] INFO [LogLoader partition=__consumer_offsets-39, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,445] INFO [LogLoader partition=__consumer_offsets-39, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,445] INFO [LogLoader partition=__consumer_offsets-39, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,447] INFO [LogLoader partition=__consumer_offsets-39, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,450] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-39, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=39, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 48ms (36/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:27,459] INFO [LogLoader partition=__consumer_offsets-4, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:27,459] INFO [LogLoader partition=__consumer_offsets-4, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,460] INFO [LogLoader partition=__consumer_offsets-4, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,460] INFO [LogLoader partition=__consumer_offsets-4, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,492] INFO [LogLoader partition=__consumer_offsets-4, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,493] INFO [LogLoader partition=__consumer_offsets-4, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,494] INFO [LogLoader partition=__consumer_offsets-4, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,497] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-4, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=4, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 47ms (37/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:27,502] INFO [LogLoader partition=__consumer_offsets-40, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:27,502] INFO [LogLoader partition=__consumer_offsets-40, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,503] INFO [LogLoader partition=__consumer_offsets-40, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,503] INFO [LogLoader partition=__consumer_offsets-40, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,537] INFO [LogLoader partition=__consumer_offsets-40, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,538] INFO [LogLoader partition=__consumer_offsets-40, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,538] INFO [LogLoader partition=__consumer_offsets-40, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,541] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-40, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=40, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 43ms (38/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:27,550] INFO [LogLoader partition=__consumer_offsets-41, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:27,550] INFO [LogLoader partition=__consumer_offsets-41, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,551] INFO [LogLoader partition=__consumer_offsets-41, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,551] INFO [LogLoader partition=__consumer_offsets-41, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,645] INFO [LogLoader partition=__consumer_offsets-41, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,646] INFO [LogLoader partition=__consumer_offsets-41, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,647] INFO [LogLoader partition=__consumer_offsets-41, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,651] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-41, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=41, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 110ms (39/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:27,654] INFO [LogLoader partition=__consumer_offsets-42, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:27,655] INFO [LogLoader partition=__consumer_offsets-42, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,656] INFO [LogLoader partition=__consumer_offsets-42, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,656] INFO [LogLoader partition=__consumer_offsets-42, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,678] INFO [LogLoader partition=__consumer_offsets-42, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,679] INFO [LogLoader partition=__consumer_offsets-42, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,680] INFO [LogLoader partition=__consumer_offsets-42, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,682] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-42, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=42, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 31ms (40/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:27,686] INFO [LogLoader partition=__consumer_offsets-43, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:27,686] INFO [LogLoader partition=__consumer_offsets-43, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,687] INFO [LogLoader partition=__consumer_offsets-43, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,687] INFO [LogLoader partition=__consumer_offsets-43, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,711] INFO [LogLoader partition=__consumer_offsets-43, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,712] INFO [LogLoader partition=__consumer_offsets-43, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,712] INFO [LogLoader partition=__consumer_offsets-43, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,715] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-43, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=43, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 33ms (41/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:27,719] INFO [LogLoader partition=__consumer_offsets-44, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:27,719] INFO [LogLoader partition=__consumer_offsets-44, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,719] INFO [LogLoader partition=__consumer_offsets-44, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,721] INFO [LogLoader partition=__consumer_offsets-44, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,746] INFO [LogLoader partition=__consumer_offsets-44, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,746] INFO [LogLoader partition=__consumer_offsets-44, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,747] INFO [LogLoader partition=__consumer_offsets-44, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,751] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-44, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=44, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 35ms (42/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:27,760] INFO [LogLoader partition=__consumer_offsets-45, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:27,761] INFO [LogLoader partition=__consumer_offsets-45, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,761] INFO [LogLoader partition=__consumer_offsets-45, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,761] INFO [LogLoader partition=__consumer_offsets-45, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,795] INFO [LogLoader partition=__consumer_offsets-45, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,796] INFO [LogLoader partition=__consumer_offsets-45, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,797] INFO [LogLoader partition=__consumer_offsets-45, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,801] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-45, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=45, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 50ms (43/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:27,809] INFO [LogLoader partition=__consumer_offsets-46, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:27,810] INFO [LogLoader partition=__consumer_offsets-46, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,810] INFO [LogLoader partition=__consumer_offsets-46, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,811] INFO [LogLoader partition=__consumer_offsets-46, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,855] INFO [LogLoader partition=__consumer_offsets-46, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,855] INFO [LogLoader partition=__consumer_offsets-46, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,858] INFO [LogLoader partition=__consumer_offsets-46, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,863] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-46, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=46, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 61ms (44/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:27,878] INFO [LogLoader partition=__consumer_offsets-47, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:27,879] INFO [LogLoader partition=__consumer_offsets-47, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,880] INFO [LogLoader partition=__consumer_offsets-47, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,881] INFO [LogLoader partition=__consumer_offsets-47, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,913] INFO [LogLoader partition=__consumer_offsets-47, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,913] INFO [LogLoader partition=__consumer_offsets-47, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,916] INFO [LogLoader partition=__consumer_offsets-47, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,921] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-47, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=47, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 58ms (45/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:27,930] INFO [LogLoader partition=__consumer_offsets-48, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:27,931] INFO [LogLoader partition=__consumer_offsets-48, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,932] INFO [LogLoader partition=__consumer_offsets-48, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,933] INFO [LogLoader partition=__consumer_offsets-48, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,962] INFO [LogLoader partition=__consumer_offsets-48, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,962] INFO [LogLoader partition=__consumer_offsets-48, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,963] INFO [LogLoader partition=__consumer_offsets-48, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,969] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-48, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=48, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 46ms (46/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:27,973] INFO [LogLoader partition=__consumer_offsets-49, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:27,973] INFO [LogLoader partition=__consumer_offsets-49, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,974] INFO [LogLoader partition=__consumer_offsets-49, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,974] INFO [LogLoader partition=__consumer_offsets-49, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,996] INFO [LogLoader partition=__consumer_offsets-49, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,996] INFO [LogLoader partition=__consumer_offsets-49, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:27,997] INFO [LogLoader partition=__consumer_offsets-49, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,000] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-49, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=49, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 31ms (47/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:28,004] INFO [LogLoader partition=__consumer_offsets-5, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:28,005] INFO [LogLoader partition=__consumer_offsets-5, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,005] INFO [LogLoader partition=__consumer_offsets-5, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,006] INFO [LogLoader partition=__consumer_offsets-5, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,029] INFO [LogLoader partition=__consumer_offsets-5, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,030] INFO [LogLoader partition=__consumer_offsets-5, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,030] INFO [LogLoader partition=__consumer_offsets-5, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,033] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-5, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=5, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 33ms (48/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:28,038] INFO [LogLoader partition=__consumer_offsets-6, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:28,038] INFO [LogLoader partition=__consumer_offsets-6, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,039] INFO [LogLoader partition=__consumer_offsets-6, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,039] INFO [LogLoader partition=__consumer_offsets-6, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,071] INFO [LogLoader partition=__consumer_offsets-6, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,071] INFO [LogLoader partition=__consumer_offsets-6, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,072] INFO [LogLoader partition=__consumer_offsets-6, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,075] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-6, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=6, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 41ms (49/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:28,085] INFO [LogLoader partition=__consumer_offsets-7, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:28,086] INFO [LogLoader partition=__consumer_offsets-7, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,086] INFO [LogLoader partition=__consumer_offsets-7, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,087] INFO [LogLoader partition=__consumer_offsets-7, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,129] INFO [LogLoader partition=__consumer_offsets-7, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,130] INFO [LogLoader partition=__consumer_offsets-7, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,131] INFO [LogLoader partition=__consumer_offsets-7, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,136] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-7, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=7, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 60ms (50/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:28,140] INFO [LogLoader partition=__consumer_offsets-8, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:28,141] INFO [LogLoader partition=__consumer_offsets-8, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,141] INFO [LogLoader partition=__consumer_offsets-8, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,142] INFO [LogLoader partition=__consumer_offsets-8, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,170] INFO [LogLoader partition=__consumer_offsets-8, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,170] INFO [LogLoader partition=__consumer_offsets-8, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,171] INFO [LogLoader partition=__consumer_offsets-8, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,174] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-8, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=8, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 38ms (51/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:28,177] INFO [LogLoader partition=__consumer_offsets-9, dir=E:\tmp\kafka-logs] Recovering unflushed segment 0 (kafka.log.LogLoader)
+[2022-07-06 15:33:28,178] INFO [LogLoader partition=__consumer_offsets-9, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,178] INFO [LogLoader partition=__consumer_offsets-9, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,179] INFO [LogLoader partition=__consumer_offsets-9, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,213] INFO [LogLoader partition=__consumer_offsets-9, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,213] INFO [LogLoader partition=__consumer_offsets-9, dir=E:\tmp\kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,214] INFO [LogLoader partition=__consumer_offsets-9, dir=E:\tmp\kafka-logs] Producer state recovery took 0ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:28,218] INFO Completed load of Log(dir=E:\tmp\kafka-logs\__consumer_offsets-9, topicId=g1hGUupQTwquf-HldRitOw, topic=__consumer_offsets, partition=9, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 44ms (52/52 loaded in E:\tmp\kafka-logs) (kafka.log.LogManager)
+[2022-07-06 15:33:28,220] INFO Loaded 52 logs in 2870ms. (kafka.log.LogManager)
+[2022-07-06 15:33:28,221] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2022-07-06 15:33:28,222] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2022-07-06 15:33:28,543] INFO [BrokerToControllerChannelManager broker=0 name=forwarding]: Starting (kafka.server.BrokerToControllerRequestThread)
+[2022-07-06 15:33:28,647] INFO Updated connection-accept-rate max connection creation rate to 2147483647 (kafka.network.ConnectionQuotas)
+[2022-07-06 15:33:28,652] INFO Awaiting socket connections on 0.0.0.0:9092. (kafka.network.DataPlaneAcceptor)
+[2022-07-06 15:33:28,684] INFO [SocketServer listenerType=ZK_BROKER, nodeId=0] Created data-plane acceptor and processors for endpoint : ListenerName(PLAINTEXT) (kafka.network.SocketServer)
+[2022-07-06 15:33:28,698] INFO [BrokerToControllerChannelManager broker=0 name=alterPartition]: Starting (kafka.server.BrokerToControllerRequestThread)
+[2022-07-06 15:33:28,718] INFO [ExpirationReaper-0-Produce]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2022-07-06 15:33:28,719] INFO [ExpirationReaper-0-Fetch]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2022-07-06 15:33:28,720] INFO [ExpirationReaper-0-DeleteRecords]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2022-07-06 15:33:28,721] INFO [ExpirationReaper-0-ElectLeader]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2022-07-06 15:33:28,742] INFO [LogDirFailureHandler]: Starting (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2022-07-06 15:33:28,783] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.zk.KafkaZkClient)
+[2022-07-06 15:33:28,821] INFO Stat of the created znode at /brokers/ids/0 is: 163,163,1657089208798,1657089208798,1,0,0,72059118806630400,214,0,163
+ (kafka.zk.KafkaZkClient)
+[2022-07-06 15:33:28,822] INFO Registered broker 0 at path /brokers/ids/0 with addresses: PLAINTEXT://DESKTOP-JT4AOQV:9092, czxid (broker epoch): 163 (kafka.zk.KafkaZkClient)
+[2022-07-06 15:33:28,905] INFO [ExpirationReaper-0-topic]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2022-07-06 15:33:28,911] INFO [ExpirationReaper-0-Rebalance]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2022-07-06 15:33:28,912] INFO [ExpirationReaper-0-Heartbeat]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2022-07-06 15:33:28,929] INFO [GroupCoordinator 0]: Starting up. (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:28,958] INFO [GroupCoordinator 0]: Startup complete. (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:29,013] INFO [TransactionCoordinator id=0] Starting up. (kafka.coordinator.transaction.TransactionCoordinator)
+[2022-07-06 15:33:29,047] INFO [TransactionCoordinator id=0] Startup complete. (kafka.coordinator.transaction.TransactionCoordinator)
+[2022-07-06 15:33:29,049] INFO [Transaction Marker Channel Manager 0]: Starting (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2022-07-06 15:33:29,092] INFO [ExpirationReaper-0-AlterAcls]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2022-07-06 15:33:29,128] INFO [/config/changes-event-process-thread]: Starting (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2022-07-06 15:33:29,151] INFO [SocketServer listenerType=ZK_BROKER, nodeId=0] Starting socket server acceptors and processors (kafka.network.SocketServer)
+[2022-07-06 15:33:29,156] INFO [SocketServer listenerType=ZK_BROKER, nodeId=0] Started data-plane acceptor and processor(s) for endpoint : ListenerName(PLAINTEXT) (kafka.network.SocketServer)
+[2022-07-06 15:33:29,156] INFO [SocketServer listenerType=ZK_BROKER, nodeId=0] Started socket server acceptors and processors (kafka.network.SocketServer)
+[2022-07-06 15:33:29,162] INFO Kafka version: 3.2.0 (org.apache.kafka.common.utils.AppInfoParser)
+[2022-07-06 15:33:29,164] INFO Kafka commitId: 38103ffaa962ef50 (org.apache.kafka.common.utils.AppInfoParser)
+[2022-07-06 15:33:29,167] INFO Kafka startTimeMs: 1657089209157 (org.apache.kafka.common.utils.AppInfoParser)
+[2022-07-06 15:33:29,179] INFO [KafkaServer id=0] started (kafka.server.KafkaServer)
+[2022-07-06 15:33:29,208] INFO [BrokerToControllerChannelManager broker=0 name=forwarding]: Recorded new controller, from now on will use broker DESKTOP-JT4AOQV:9092 (id: 0 rack: null) (kafka.server.BrokerToControllerRequestThread)
+[2022-07-06 15:33:29,246] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions Set(__consumer_offsets-22, __consumer_offsets-30, __consumer_offsets-8, __consumer_offsets-21, __consumer_offsets-4, __consumer_offsets-27, __consumer_offsets-7, __consumer_offsets-9, __consumer_offsets-46, __consumer_offsets-25, __consumer_offsets-35, __consumer_offsets-41, __consumer_offsets-33, __consumer_offsets-23, __consumer_offsets-49, __consumer_offsets-47, __consumer_offsets-16, __consumer_offsets-28, __consumer_offsets-31, __consumer_offsets-36, __consumer_offsets-42, __consumer_offsets-3, __consumer_offsets-18, __consumer_offsets-37, oingdaddy-0, __consumer_offsets-15, __consumer_offsets-24, __consumer_offsets-38, __consumer_offsets-17, __consumer_offsets-48, __consumer_offsets-19, __consumer_offsets-11, __consumer_offsets-13, __consumer_offsets-2, __consumer_offsets-43, __consumer_offsets-6, __consumer_offsets-14, __consumer_offsets-20, __consumer_offsets-0, __consumer_offsets-44, __consumer_offsets-39, __consumer_offsets-12, __consumer_offsets-45, __consumer_offsets-1, __consumer_offsets-5, __consumer_offsets-26, __consumer_offsets-29, __consumer_offsets-34, __consumer_offsets-10, __consumer_offsets-32, __consumer_offsets-40, registerTopic-0) (kafka.server.ReplicaFetcherManager)
+[2022-07-06 15:33:29,254] INFO [BrokerToControllerChannelManager broker=0 name=alterPartition]: Recorded new controller, from now on will use broker DESKTOP-JT4AOQV:9092 (id: 0 rack: null) (kafka.server.BrokerToControllerRequestThread)
+[2022-07-06 15:33:29,264] INFO [Partition __consumer_offsets-0 broker=0] Log loaded for partition __consumer_offsets-0 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:29,289] INFO [Partition __consumer_offsets-29 broker=0] Log loaded for partition __consumer_offsets-29 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:29,312] INFO [Partition __consumer_offsets-48 broker=0] Log loaded for partition __consumer_offsets-48 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:29,338] INFO [Partition __consumer_offsets-10 broker=0] Log loaded for partition __consumer_offsets-10 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:29,362] INFO [Partition __consumer_offsets-45 broker=0] Log loaded for partition __consumer_offsets-45 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:29,387] INFO [Partition oingdaddy-0 broker=0] Log loaded for partition oingdaddy-0 with initial high watermark 5 (kafka.cluster.Partition)
+[2022-07-06 15:33:29,388] INFO [Partition __consumer_offsets-26 broker=0] Log loaded for partition __consumer_offsets-26 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:29,412] INFO [Partition __consumer_offsets-7 broker=0] Log loaded for partition __consumer_offsets-7 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:29,445] INFO [Partition __consumer_offsets-42 broker=0] Log loaded for partition __consumer_offsets-42 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:29,470] INFO [Partition __consumer_offsets-4 broker=0] Log loaded for partition __consumer_offsets-4 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:29,502] INFO Creating topic shopTopic with configuration {} and initial partition assignment Map(0 -> ArrayBuffer(0)) (kafka.zk.AdminZkClient)
+[2022-07-06 15:33:29,509] INFO [Partition __consumer_offsets-23 broker=0] Log loaded for partition __consumer_offsets-23 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:29,579] INFO [Partition registerTopic-0 broker=0] Log loaded for partition registerTopic-0 with initial high watermark 3 (kafka.cluster.Partition)
+[2022-07-06 15:33:29,580] INFO [Partition __consumer_offsets-1 broker=0] Log loaded for partition __consumer_offsets-1 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:29,640] INFO [Partition __consumer_offsets-20 broker=0] Log loaded for partition __consumer_offsets-20 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:29,696] INFO [Partition __consumer_offsets-39 broker=0] Log loaded for partition __consumer_offsets-39 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:29,737] INFO [Partition __consumer_offsets-17 broker=0] Log loaded for partition __consumer_offsets-17 with initial high watermark 2 (kafka.cluster.Partition)
+[2022-07-06 15:33:29,738] INFO [Partition __consumer_offsets-36 broker=0] Log loaded for partition __consumer_offsets-36 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:29,822] INFO [Partition __consumer_offsets-14 broker=0] Log loaded for partition __consumer_offsets-14 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:29,896] INFO [Partition __consumer_offsets-33 broker=0] Log loaded for partition __consumer_offsets-33 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:29,962] INFO [Partition __consumer_offsets-49 broker=0] Log loaded for partition __consumer_offsets-49 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:30,022] INFO [Partition __consumer_offsets-11 broker=0] Log loaded for partition __consumer_offsets-11 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:30,098] INFO [Partition __consumer_offsets-30 broker=0] Log loaded for partition __consumer_offsets-30 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:30,127] INFO [Partition __consumer_offsets-46 broker=0] Log loaded for partition __consumer_offsets-46 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:30,163] INFO [Partition __consumer_offsets-27 broker=0] Log loaded for partition __consumer_offsets-27 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:30,188] INFO [Partition __consumer_offsets-8 broker=0] Log loaded for partition __consumer_offsets-8 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:30,213] INFO [Partition __consumer_offsets-24 broker=0] Log loaded for partition __consumer_offsets-24 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:30,237] INFO [Partition __consumer_offsets-43 broker=0] Log loaded for partition __consumer_offsets-43 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:30,263] INFO [Partition __consumer_offsets-5 broker=0] Log loaded for partition __consumer_offsets-5 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:30,288] INFO [Partition __consumer_offsets-21 broker=0] Log loaded for partition __consumer_offsets-21 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:30,311] INFO [Partition __consumer_offsets-40 broker=0] Log loaded for partition __consumer_offsets-40 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:30,338] INFO [Partition __consumer_offsets-2 broker=0] Log loaded for partition __consumer_offsets-2 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:30,363] INFO [Partition __consumer_offsets-37 broker=0] Log loaded for partition __consumer_offsets-37 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:30,385] INFO [Partition __consumer_offsets-18 broker=0] Log loaded for partition __consumer_offsets-18 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:30,437] INFO [Partition __consumer_offsets-34 broker=0] Log loaded for partition __consumer_offsets-34 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:30,466] INFO [Partition __consumer_offsets-15 broker=0] Log loaded for partition __consumer_offsets-15 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:30,495] INFO [Partition __consumer_offsets-12 broker=0] Log loaded for partition __consumer_offsets-12 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:30,531] INFO [Partition __consumer_offsets-31 broker=0] Log loaded for partition __consumer_offsets-31 with initial high watermark 3 (kafka.cluster.Partition)
+[2022-07-06 15:33:30,532] INFO [Partition __consumer_offsets-9 broker=0] Log loaded for partition __consumer_offsets-9 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:30,564] INFO [Partition __consumer_offsets-47 broker=0] Log loaded for partition __consumer_offsets-47 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:30,596] INFO [Partition __consumer_offsets-19 broker=0] Log loaded for partition __consumer_offsets-19 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:30,620] INFO [Partition __consumer_offsets-28 broker=0] Log loaded for partition __consumer_offsets-28 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:30,644] INFO [Partition __consumer_offsets-38 broker=0] Log loaded for partition __consumer_offsets-38 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:30,723] INFO [Partition __consumer_offsets-35 broker=0] Log loaded for partition __consumer_offsets-35 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:30,747] INFO [Partition __consumer_offsets-6 broker=0] Log loaded for partition __consumer_offsets-6 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:30,771] INFO [Partition __consumer_offsets-44 broker=0] Log loaded for partition __consumer_offsets-44 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:30,799] INFO [Partition __consumer_offsets-25 broker=0] Log loaded for partition __consumer_offsets-25 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:30,894] INFO [Partition __consumer_offsets-16 broker=0] Log loaded for partition __consumer_offsets-16 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:30,945] INFO [Partition __consumer_offsets-22 broker=0] Log loaded for partition __consumer_offsets-22 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:30,973] INFO [Partition __consumer_offsets-41 broker=0] Log loaded for partition __consumer_offsets-41 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:30,998] INFO [Partition __consumer_offsets-32 broker=0] Log loaded for partition __consumer_offsets-32 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:31,054] INFO [Partition __consumer_offsets-3 broker=0] Log loaded for partition __consumer_offsets-3 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:31,088] INFO [Partition __consumer_offsets-13 broker=0] Log loaded for partition __consumer_offsets-13 with initial high watermark 60 (kafka.cluster.Partition)
+[2022-07-06 15:33:31,098] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 22 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,101] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-22 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,104] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 25 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,104] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-25 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,106] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 28 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,108] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-28 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,109] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 31 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,110] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-31 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,112] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 34 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,112] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-34 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,113] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 37 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,114] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-37 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,115] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-22 in 11 milliseconds for epoch 0, of which 4 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,116] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-25 in 10 milliseconds for epoch 0, of which 10 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,117] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 40 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,118] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-28 in 9 milliseconds for epoch 0, of which 8 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,118] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-40 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,119] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 43 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,119] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-43 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,120] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 46 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,122] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-46 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,123] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 49 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,124] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-49 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,125] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 41 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,128] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-41 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,130] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 44 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,132] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-44 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,134] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 47 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,135] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-47 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,135] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 1 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,136] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-1 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,136] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 4 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,137] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-4 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,140] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 7 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,140] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-7 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,140] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 10 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,141] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-10 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,141] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 13 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,142] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-13 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,142] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 16 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,142] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-16 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,143] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 19 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,143] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-19 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,144] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 2 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,144] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-2 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,145] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 5 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,145] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-5 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,145] INFO Loaded member MemberMetadata(memberId=console-consumer-231e5b0c-4b4c-4f1f-915b-e26f3165f7fb, groupInstanceId=None, clientId=console-consumer, clientHost=/192.168.0.49, sessionTimeoutMs=45000, rebalanceTimeoutMs=300000, supportedProtocols=List(range)) in group console-consumer-27588 with generation 1. (kafka.coordinator.group.GroupMetadata$)
+[2022-07-06 15:33:31,145] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 8 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,146] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-8 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,147] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 11 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,147] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-11 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,148] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 14 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,148] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-14 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,149] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 17 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,149] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-17 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,150] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 20 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,151] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-20 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,151] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-31 in 40 milliseconds for epoch 0, of which 7 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,151] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 23 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,152] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-34 in 39 milliseconds for epoch 0, of which 39 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,152] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-23 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,155] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-37 in 39 milliseconds for epoch 0, of which 39 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,156] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-40 in 37 milliseconds for epoch 0, of which 37 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,156] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-43 in 36 milliseconds for epoch 0, of which 36 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,157] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-46 in 34 milliseconds for epoch 0, of which 34 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,161] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-49 in 36 milliseconds for epoch 0, of which 35 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,158] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 26 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,162] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-26 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,163] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-41 in 33 milliseconds for epoch 0, of which 33 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,163] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 29 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,164] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-29 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,164] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-44 in 30 milliseconds for epoch 0, of which 30 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,164] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 32 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,165] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-47 in 30 milliseconds for epoch 0, of which 30 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,165] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-32 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,166] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-1 in 30 milliseconds for epoch 0, of which 30 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,166] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 35 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,167] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-4 in 28 milliseconds for epoch 0, of which 28 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,167] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-35 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,168] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-7 in 28 milliseconds for epoch 0, of which 28 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,168] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 38 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,169] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-10 in 28 milliseconds for epoch 0, of which 28 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,171] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-38 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,172] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 0 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,172] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-0 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,173] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 3 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,173] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-3 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,174] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 6 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,174] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-6 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,175] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 9 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,175] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-9 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,175] INFO Loaded member MemberMetadata(memberId=consumer-register-1-51546c31-a041-499f-a84d-ceea473dad4b, groupInstanceId=None, clientId=consumer-register-1, clientHost=/192.168.0.49, sessionTimeoutMs=45000, rebalanceTimeoutMs=300000, supportedProtocols=List(range)) in group register with generation 1. (kafka.coordinator.group.GroupMetadata$)
+[2022-07-06 15:33:31,176] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 12 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,177] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-12 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,177] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 15 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,178] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-15 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,178] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 18 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,179] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-18 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,179] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 21 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,179] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-21 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,180] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 24 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,181] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-24 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,181] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 27 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,182] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-27 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,182] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 30 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,184] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-30 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,185] INFO [GroupCoordinator 0]: Loading group metadata for register with generation 2 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,186] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 33 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,187] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-33 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,187] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-13 in 45 milliseconds for epoch 0, of which 29 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,187] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 36 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,188] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-36 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,188] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-16 in 45 milliseconds for epoch 0, of which 45 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,189] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 39 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,189] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-19 in 45 milliseconds for epoch 0, of which 45 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,189] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-39 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,190] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-2 in 46 milliseconds for epoch 0, of which 46 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,191] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 42 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,191] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-5 in 46 milliseconds for epoch 0, of which 46 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,191] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-42 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,192] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-8 in 45 milliseconds for epoch 0, of which 45 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,192] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 45 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,193] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-11 in 45 milliseconds for epoch 0, of which 45 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,193] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-45 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,194] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-14 in 45 milliseconds for epoch 0, of which 45 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,194] INFO [GroupCoordinator 0]: Elected as the group coordinator for partition 48 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,195] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-48 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,198] INFO Loaded member MemberMetadata(memberId=console-consumer-e193a4f0-de2b-45e8-9b91-790877516407, groupInstanceId=None, clientId=console-consumer, clientHost=/192.168.0.49, sessionTimeoutMs=45000, rebalanceTimeoutMs=300000, supportedProtocols=List(range)) in group console-consumer-38465 with generation 1. (kafka.coordinator.group.GroupMetadata$)
+[2022-07-06 15:33:31,199] INFO Loaded member MemberMetadata(memberId=console-consumer-e193a4f0-de2b-45e8-9b91-790877516407, groupInstanceId=None, clientId=console-consumer, clientHost=/192.168.0.49, sessionTimeoutMs=45000, rebalanceTimeoutMs=300000, supportedProtocols=List(range)) in group console-consumer-38465 with generation 2. (kafka.coordinator.group.GroupMetadata$)
+[2022-07-06 15:33:31,199] INFO [GroupCoordinator 0]: Loading group metadata for console-consumer-38465 with generation 2 (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,204] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-17 in 54 milliseconds for epoch 0, of which 45 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,205] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-20 in 54 milliseconds for epoch 0, of which 54 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,205] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-23 in 50 milliseconds for epoch 0, of which 50 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,206] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-26 in 43 milliseconds for epoch 0, of which 43 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,207] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-29 in 43 milliseconds for epoch 0, of which 43 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,208] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-32 in 42 milliseconds for epoch 0, of which 41 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,208] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-35 in 40 milliseconds for epoch 0, of which 40 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,209] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-38 in 37 milliseconds for epoch 0, of which 37 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,210] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-0 in 37 milliseconds for epoch 0, of which 37 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,211] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions Set(shopTopic-0) (kafka.server.ReplicaFetcherManager)
+[2022-07-06 15:33:31,212] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-3 in 38 milliseconds for epoch 0, of which 37 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,213] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-6 in 39 milliseconds for epoch 0, of which 39 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,214] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-9 in 38 milliseconds for epoch 0, of which 38 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,215] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-12 in 38 milliseconds for epoch 0, of which 37 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,215] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-15 in 37 milliseconds for epoch 0, of which 37 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,216] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-18 in 37 milliseconds for epoch 0, of which 37 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,218] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-21 in 38 milliseconds for epoch 0, of which 38 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,218] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-24 in 37 milliseconds for epoch 0, of which 37 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,219] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-27 in 37 milliseconds for epoch 0, of which 37 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,220] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-30 in 35 milliseconds for epoch 0, of which 35 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,221] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-33 in 34 milliseconds for epoch 0, of which 34 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,221] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-36 in 33 milliseconds for epoch 0, of which 33 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,222] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-39 in 31 milliseconds for epoch 0, of which 31 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,222] INFO [LogLoader partition=shopTopic-0, dir=E:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-07-06 15:33:31,222] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-42 in 30 milliseconds for epoch 0, of which 30 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,223] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-45 in 29 milliseconds for epoch 0, of which 29 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,224] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-48 in 29 milliseconds for epoch 0, of which 28 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2022-07-06 15:33:31,229] INFO Created log for partition shopTopic-0 in E:\tmp\kafka-logs\shopTopic-0 with properties {} (kafka.log.LogManager)
+[2022-07-06 15:33:31,231] INFO [Partition shopTopic-0 broker=0] No checkpointed highwatermark is found for partition shopTopic-0 (kafka.cluster.Partition)
+[2022-07-06 15:33:31,231] INFO [Partition shopTopic-0 broker=0] Log loaded for partition shopTopic-0 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-07-06 15:33:31,290] INFO [GroupCoordinator 0]: Dynamic member with unknown member id joins group jung in Empty state. Created a new member id consumer-jung-1-7df07d6d-e558-4ad0-a397-39e1b44bb845 and request the member to rejoin with this id. (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,300] INFO [GroupCoordinator 0]: Preparing to rebalance group jung in state PreparingRebalance with old generation 0 (__consumer_offsets-46) (reason: Adding new member consumer-jung-1-7df07d6d-e558-4ad0-a397-39e1b44bb845 with group instance id None; client reason: not provided) (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,307] INFO [GroupCoordinator 0]: Stabilized group jung generation 1 (__consumer_offsets-46) with 1 members (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:33:31,381] INFO [GroupCoordinator 0]: Assignment received from leader consumer-jung-1-7df07d6d-e558-4ad0-a397-39e1b44bb845 for group jung for generation 1. The group has 1 members, 0 of which are static. (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:34:16,206] INFO [GroupCoordinator 0]: Member console-consumer-e193a4f0-de2b-45e8-9b91-790877516407 in group console-consumer-38465 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:34:16,206] INFO [GroupCoordinator 0]: Preparing to rebalance group console-consumer-38465 in state PreparingRebalance with old generation 2 (__consumer_offsets-17) (reason: removing member console-consumer-e193a4f0-de2b-45e8-9b91-790877516407 on heartbeat expiration) (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:34:16,206] INFO [GroupCoordinator 0]: Group console-consumer-38465 with generation 3 is now empty (__consumer_offsets-17) (kafka.coordinator.group.GroupCoordinator)
+[2022-07-06 15:43:28,987] INFO [GroupMetadataManager brokerId=0] Group console-consumer-38465 transitioned to Dead in generation 3 (kafka.coordinator.group.GroupMetadataManager)
